@@ -53,7 +53,6 @@
 .form-right:before { content: "\e90d"; }
 .form-left:before { content: "\e90e"; }
 .form-down-light:before { content: "\e901"; }
-.form-menu-light:before { content: "\e902"; }
 .form-search:before { content: "\e900"; }
 .form-down-solid:before { content: "\e906"; }
 .form-close:before { content: "\e904"; }
@@ -69,7 +68,7 @@ html
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
-
+a { color: inherit; } 
 body
 {
 	font-family: 'Optima W01', sans-serif;
